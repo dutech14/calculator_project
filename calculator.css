@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 400px;
+    height: 530px;
+    margin:50px auto;
+    box-shadow: 0 0 8px 0  black;
+    border-radius: 20px;
+    background-color: rgb(68, 68, 109);
+}
+
+#numbers{
+    margin: 39px 39px 0px 39px ;
+    width: 290px;
+    font-weight: bold;
+    height: 50px;
+    box-shadow: 0 0 2px 0 black;
+    border: none;
+    border-radius: 9px;
+    padding: 12px;
+    font-size: 50px;
+    color: rgb(20, 20, 20);
+    text-align: right;
+    background: rgb(160, 156, 156);
+    border: 3px solid white;
+}
+#nums{
+    margin: 15px 30px ;
+}
+
+button{
+    margin: 5px;
+    height: 50px;
+    width: 70px;
+    font-weight: bold;
+    font-size: 40px;
+    border: none;
+    box-shadow: 0 0 2px 0 black;
+    border-radius: 5px;
+    background:rgb(30, 30, 67) ;
+    color: rgb(183, 201, 239);
+}
+#num1,#num2,#num3,#num4,#comma{
+    padding: 3px;
+}
+#equals{
+    width: 240px;
+    background: red;
+}
+
+button:active{
+    height: 45px;
+    width: 65px;
+    color: black;
+}

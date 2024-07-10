@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet", type="text/css", href="calculator.css">
+</head>
+<body>
+    <div id="wrapper">
+        <input id="numbers" placeholder="0"  readonly>
+        <div id="nums">
+            <button onclick="appendDisplay('1')" id="num1">1</button>
+            <button onclick="appendDisplay('2')" id="num2">2</button>
+            <button onclick="appendDisplay('3')" id="num3">3</button>
+            <button onclick="appendDisplay('/')" id="divide">/</button>
+        </div>
+        <div id="nums">
+            <button onclick="appendDisplay('4')" id="num4">4</button>
+            <button onclick="appendDisplay('5')" id="num5">5</button>
+            <button onclick="appendDisplay('6')" id="num6">6</button>
+            <button onclick="appendDisplay('+')" id="addition">+</button>
+        </div>
+        <div id="nums">
+            <button onclick="appendDisplay('7')" id="num7">7</button>
+            <button onclick="appendDisplay('8')" id="num8">8</button>
+            <button onclick="appendDisplay('9')" id="num9">9</button>
+            <button onclick="appendDisplay('*')" id="multiply">X</button>
+        </div>
+        <div id="nums">
+            <button onclick="appendDisplay('0')" id="num0">0</button>
+            <button onclick="appendDisplay('-')" id="subtract">-</button>
+            <button onclick="appendDisplay('.')" id="period">.</button>
+            <button onclick="clearDisplay()" id="clear">C</button>
+        </div>
+        <div id="nums">
+            <button onclick="deleteOne()" id="del">del</button>
+            <button onclick="calculate()" id="equals"> =</button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
